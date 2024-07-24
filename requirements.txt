@@ -1,0 +1,14 @@
+fastapi==0.103.1
+uvicorn==0.23.2
+llama-index-readers-file
+llama-index-vector-stores-postgres
+llama-index-embeddings-huggingface
+#llama-index-llms-llama-cpp
+llama-index-llms-openai
+llama-index-llms-mistralai
+llama-index
+arize-phoenix[evals,llama-index]
+openai>=1 
+gcsfs 
+nest-asyncio
+openinference-instrumentation-llama-index>=2.0.0
