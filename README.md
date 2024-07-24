@@ -74,7 +74,7 @@ Phoenix is an observability framework that allows for comprehensive monitoring a
 We use Docker Compose to orchestrate the PostgreSQL and FastAPI services. The docker-compose.yml file defines these services and their dependencies.
 
 ### Setup Instructions
-1. Set the env variables needed
+1. Set the env variables needed in a .env file at the root of the project.
 
 `OPENAI_API_KEY="YOUR KEY"`
 
