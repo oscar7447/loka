@@ -134,6 +134,9 @@ Prompt template with query and context with output for `Mistral`
 
 ![alt text](images/image-5.png)
 
+### Answer to proposed questions
+![alt text](images/image-10.png)
+
 ## Vector store
 
 Vector store in Postgres local DB with the embedding inserted.
