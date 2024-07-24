@@ -106,7 +106,10 @@ Once the services are up and running, you can access the FastAPI application at 
 The following API endpoints are available:
 
 - GET /ingest_data: Get the information from a given path and update the vector store
-- GET /query: Ask any question based on the information provided in the previous step
+- GET /query: Ask any question based on the information provided in the previous step, and select the LLM model, right now we have avalaible
+    - MistralAI
+    - GPT 3.5 turbo
+    - GPT 4.0
 ![alt text](images/image-8.png)
 ![alt text](images/image-9.png)
 
