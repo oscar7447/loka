@@ -46,7 +46,7 @@
     - Suggest related documents or sections that may be relevant to the user's query.
 
 ## RAG Architecture
-![alt text](image.png)
+![alt text](images/image.png)
 
 ## Technical Documentation for a RAG Pipeline using PostgreSQL, FastAPI and Phoenix
 
@@ -107,21 +107,34 @@ The following API endpoints are available:
 
 - GET /ingest_data: Get the information from a given path and update the vector store
 - GET /query: Ask any question based on the information provided in the previous step
-
-
+![alt text](images/image-8.png)
+![alt text](images/image-9.png)
 
 # Results
-In the 
+Below the pipelines and results for the propose questions are shown.
 
-![alt text](image-1.png)
+In the Phoenix framework we can check each query made by the users, how much it took and the whole trace of the query.
 
-![alt text](image-2.png)
+![alt text](images/image-1.png)
 
-![alt text](image-3.png)
+Here the trace is shown, how the retrieve query is call then vector db retriever with the hugging face model embedder.
 
-![alt text](image-4.png)
+![alt text](images/image-2.png)
 
-![alt text](image-5.png)
+Selected document based on embedding proximity
+![alt text](images/image-3.png)
+
+Prompt template with query and context with output for `chatgpt 3.5-turbo`
+![alt text](images/image-4.png)
+
+Prompt template with query and context with output for `Mistral`
+
+![alt text](images/image-5.png)
 
 ## Vector store
-![alt text](image-6.png)
+
+Vector store in Postgres local DB with the embedding inserted.
+
+![alt text](images/image-6.png)
+
+![alt text](images/image-7.png)
